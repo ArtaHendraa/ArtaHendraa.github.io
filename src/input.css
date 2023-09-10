@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #262626;
+    border-radius: 15px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #0d1117;
+  }
+
+  .menu-active {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg bg-neutral-800;
+  }
+
+  .menu-not-active {
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-neutral-800 hover:lg:rounded-lg lg:hover:scale-105 lg:transition-all lg:duration-300;
+  }
+
+  .social-media-hover {
+    @apply transition duration-300 text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 hover:dark:text-neutral-300 lg:hover:scale-110;
+  }
+}
