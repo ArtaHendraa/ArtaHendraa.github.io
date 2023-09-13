@@ -3,40 +3,55 @@
 @tailwind utilities;
 
 @layer components {
+  /* Scrollbar Style */
   ::-webkit-scrollbar {
     width: 10px;
   }
-
   ::-webkit-scrollbar-thumb {
-    background-color: #262626;
+    background-color: #393e46;
     border-radius: 15px;
   }
-
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #4c4c4c;
+    background-color: #585f6c;
   }
+  /* Scrollbar Style */
 
+  /* Menu Style */
   .menu-active {
-    @apply flex items-center gap-2 px-4 py-2 rounded-lg bg-neutral-800;
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg bg-[#393E46];
   }
-
   .menu-not-active {
-    @apply flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-neutral-800 hover:lg:rounded-lg lg:hover:scale-105 lg:transition-all lg:duration-300;
+    @apply flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-[#393E46] hover:lg:rounded-lg lg:hover:scale-105 lg:transition-all lg:duration-300;
   }
-
   .menu-mobile-active {
-    @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg bg-neutral-800 md:py-4 md:rounded-xl;
+    @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg bg-[#393E46] md:py-4 md:rounded-xl;
   }
 
   .menu-mobile-not-active {
-    @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg hover:bg-neutral-800 transition-all md:py-4 md:rounded-xl;
+    @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg hover:bg-[#393E46] transition-all md:py-4 md:rounded-xl;
   }
-
   .social-media-hover {
     @apply transition duration-300 text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 hover:dark:text-neutral-300 lg:hover:scale-110;
   }
+  /* Menu Style */
 
+  /* Certificate Style */
   .card-certi-links {
-    @apply flex items-center gap-1 underline duration-300 cursor-pointer hover:gap-2 hover:text-white;
+    @apply flex items-center gap-1 underline duration-300 cursor-pointer hover:gap-2 hover:text-[#EEEEEE];
   }
+
+  .card-certi-bg {
+    @apply flex items-center gap-5 px-6 py-4 transition-all duration-300 border shadow-sm rounded-xl lg:hover:shadow-md border-[#393E46] bg-[#393E46];
+  }
+  /* Certificate Style */
+
+  /* Project Page Style */
+  .project-card-bg {
+    @apply rounded-xl transition-all duration-300 shadow-sm lg:hover:shadow-md relative border bg-[#393E46] border-[#393E46] lg:hover:scale-[102%] cursor-pointer;
+  }
+
+  .project-card-title-hover {
+    @apply text-lg transition-all duration-300 cursor-pointer  text-neutral-300 hover:text-[#00ADB5];
+  }
+  /* Project Page Style */
 }
