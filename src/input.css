@@ -16,6 +16,12 @@
   }
   /* Scrollbar Style */
 
+  /* universal style */
+  .border-style {
+    @apply hidden my-3 border-t border-gray-300 xl:flex;
+  }
+  /* universal style */
+
   /* Menu Style */
   .menu-active {
     @apply flex items-center gap-2 px-4 py-2 rounded-lg bg-[#393E46];
