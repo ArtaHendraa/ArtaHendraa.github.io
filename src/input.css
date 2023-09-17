@@ -69,4 +69,18 @@
   .edu-title {
     @apply text-base md:text-lg font-semibold text-white;
   }
+
+  .cllick-effect {
+    box-shadow: 0 0 0 0;
+  }
+
+  .cllick-effect:hover {
+    box-shadow: 7px 8px 0 0 #266669;
+    transform: translateY(-4px);
+  }
+
+  .cllick-effect:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0;
+  }
 }
