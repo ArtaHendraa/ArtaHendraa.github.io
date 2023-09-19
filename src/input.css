@@ -83,4 +83,10 @@
     transform: translateY(4px);
     box-shadow: 0 0 0 0;
   }
+
+  /* learn style */
+  .learn-card-bg {
+    @apply flex items-center justify-between bg-[#393E46] py-3 px-4 md:px-6 rounded-lg hover:scale-[102%] duration-300;
+  }
+  /* learn style */
 }
