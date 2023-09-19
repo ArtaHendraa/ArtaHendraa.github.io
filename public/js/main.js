@@ -71,3 +71,9 @@ closeMenuBtn.addEventListener("click", () => {
   body.style.overflow = "auto";
 });
 //! Menu Function End
+
+const messageButton = document.getElementById("message-btn");
+
+messageButton.addEventListener("click", () => {
+  alert("Pesan berhasil terkirim");
+});
