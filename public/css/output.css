@@ -1208,6 +1208,10 @@ video {
   height: 100%;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1295,6 +1299,10 @@ video {
 
 .w-\[25\%\] {
   width: 25%;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .max-w-\[400px\] {
