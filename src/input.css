@@ -88,5 +88,9 @@
   .learn-card-bg {
     @apply flex items-center justify-between bg-[#393E46] py-3 px-4 md:px-6 rounded-lg hover:scale-[102%] duration-300;
   }
+
+  .learn-date {
+    @apply text-xs md:text-sm bg-[#444a54] py-1 px-3 rounded-xl;
+  }
   /* learn style */
 }
