@@ -72,8 +72,8 @@ closeMenuBtn.addEventListener("click", () => {
 });
 //! Menu Function End
 
-const messageButton = document.getElementById("message-btn");
+// const messageButton = document.getElementById("message-btn");
 
-messageButton.addEventListener("click", () => {
-  alert("Pesan berhasil terkirim");
-});
+// messageButton.addEventListener("click", () => {
+//   alert("Pesan berhasil terkirim");
+// });
