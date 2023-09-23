@@ -63,7 +63,7 @@
 
   /* education page style */
   .image-edu-style {
-    @apply absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8  ring-gray-900 bg-[#266669];
+    @apply absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8  ring-gray-900;
   }
 
   .edu-title {
