@@ -93,36 +93,4 @@
     @apply text-xs md:text-sm bg-[#444a54] py-1 px-3 rounded-xl;
   }
   /* learn style */
-
-  #loading {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    background: #222831;
-    z-index: 999999;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #spinner {
-    animation: rotate 0.56s infinite linear;
-    width: 80px;
-    height: 80px;
-    border: 12px solid rgb(0, 118, 255);
-    border-bottom: 12px solid #222831;
-    border-radius: 50%;
-    margin: 0;
-  }
-
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-
-    100% {
-      transform: rotate(360deg);
-    }
-  }
 }
