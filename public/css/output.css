@@ -702,7 +702,7 @@ video {
 
 .social-media-hover {
   --tw-text-opacity: 1;
-  color: rgb(64 64 64 / var(--tw-text-opacity));
+  color: rgb(163 163 163 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -712,19 +712,7 @@ video {
 
 .social-media-hover:hover {
   --tw-text-opacity: 1;
-  color: rgb(23 23 23 / var(--tw-text-opacity));
-}
-
-@media (prefers-color-scheme: dark) {
-  .social-media-hover {
-    --tw-text-opacity: 1;
-    color: rgb(163 163 163 / var(--tw-text-opacity));
-  }
-
-  .social-media-hover:hover {
-    --tw-text-opacity: 1;
-    color: rgb(212 212 212 / var(--tw-text-opacity));
-  }
+  color: rgb(212 212 212 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1783,6 +1771,11 @@ video {
 .text-sky-400 {
   --tw-text-opacity: 1;
   color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
+.text-sky-500 {
+  --tw-text-opacity: 1;
+  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .text-white {

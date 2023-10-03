@@ -37,7 +37,7 @@
     @apply flex items-center w-full gap-3 px-4 py-2 rounded-lg hover:bg-[#393E46] transition-all md:py-4 md:rounded-xl;
   }
   .social-media-hover {
-    @apply transition duration-300 text-neutral-700 dark:text-neutral-400 hover:text-neutral-900 hover:dark:text-neutral-300 lg:hover:scale-110;
+    @apply transition duration-300 text-neutral-400  hover:text-neutral-300 lg:hover:scale-110;
   }
   /* Menu Style */
 
