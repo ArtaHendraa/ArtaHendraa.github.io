@@ -59,6 +59,18 @@
   .project-card-title-hover {
     @apply text-lg transition-all duration-300 cursor-pointer  text-neutral-300 hover:text-[#00ADB5];
   }
+
+  .project-description {
+    @apply text-neutral-400 text-[15px] leading-relaxed;
+  }
+
+  .banner {
+    @apply absolute top-0 right-0 bg-[#00ADB5] text-[#EEEEEE] text-[13px] font-medium py-1 px-2 rounded-bl-xl rounded-tr-xl z-[2];
+  }
+
+  .project-image-style {
+    @apply object-cover object-left h-48 duration-700 ease-in-out scale-100 blur-0 grayscale-0 rounded-t-xl;
+  }
   /* Project Page Style */
 
   /* education page style */
