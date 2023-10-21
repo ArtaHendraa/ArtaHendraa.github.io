@@ -25,5 +25,6 @@
   <li><a href='https://sandhikagalih.github.io/' target="_blank">sandhikagalih.github.io</a></li>
 </ul>
 
-## Note 
-Jika inin meng clone code website ini mohon kabari saya melalui instagram atau contact saya melalui website saya di <a href='https://artahendraa.github.io/public/html/git.html' target="_blank">sini</a> jangan lelakukan cole tanpa izin dari saya!!, mohon hargai saya dan hargai diri anda sendiri sebagai seorang developer
+## Note
+
+Jika inin meng clone code website ini mohon kabari saya melalui instagram atau contact saya melalui website saya di <a href='https://artahendraa.github.io/public/html/git.html' target="_blank">sini</a> jangan lelakukan clone tanpa izin dari saya!!, mohon hargai saya dan hargai diri anda sendiri sebagai seorang developer
