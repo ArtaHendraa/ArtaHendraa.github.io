@@ -1,3 +1,6 @@
 npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch
 
 
+flex flex-wrap justify-center gap-3 mb-10
+
+ xl:w-auto xl:min-w-[15.7rem]

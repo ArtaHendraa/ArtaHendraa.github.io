@@ -98,7 +98,7 @@
 
   /* learn style */
   .learn-card-bg {
-    @apply flex items-center justify-start bg-[#393E46] py-3 px-3 w-full xl:w-auto xl:min-w-[15.7rem] rounded-lg hover:scale-[102%] duration-300;
+    @apply flex items-center justify-start bg-[#393E46] py-3 px-3 w-full rounded-lg hover:scale-[102%] duration-300;
   }
   /* learn style */
 }
