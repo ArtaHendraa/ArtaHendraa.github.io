@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // update clock
   setInterval(updateClock, 1000);
 });
-
 //! Clock End
 
 //! Menu Function Start
